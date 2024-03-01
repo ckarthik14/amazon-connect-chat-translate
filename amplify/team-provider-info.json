@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amazonconnectchattra-dev-113506-authRole",
+      "UnauthRoleArn": "arn:aws:iam::471112798145:role/amplify-amazonconnectchattra-dev-113506-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::471112798145:role/amplify-amazonconnectchattra-dev-113506-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amazonconnectchattra-dev-113506-deployment",
+      "UnauthRoleName": "amplify-amazonconnectchattra-dev-113506-unauthRole",
+      "StackName": "amplify-amazonconnectchattra-dev-113506",
+      "StackId": "arn:aws:cloudformation:us-east-1:471112798145:stack/amplify-amazonconnectchattra-dev-113506/cf8e0770-d802-11ee-91fd-0aef8a7fa2b1",
+      "AmplifyAppId": "d1zpzmsw34nqh4"
+    },
+    "categories": {
+      "auth": {
+        "amazonconnectchattra58e02869": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1zpzmsw34nqh4",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
