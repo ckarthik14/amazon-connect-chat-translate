@@ -9,5 +9,16 @@ export type AmplifyDependentResourcesAttributes = {
       "UserPoolId": "string",
       "UserPoolName": "string"
     }
+  },
+  "predictions": {
+    "interpretText0a0969b4": {
+      "region": "string",
+      "type": "string"
+    },
+    "translateTextddc2e906": {
+      "region": "string",
+      "sourceLang": "string",
+      "targetLang": "string"
+    }
   }
 }

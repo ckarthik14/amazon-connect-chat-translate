@@ -49,5 +49,17 @@
         }
       ]
     }
+  },
+  "predictions": {
+    "interpretText0a0969b4": {
+      "interpretType": "interpretText",
+      "providerPlugin": "awscloudformation",
+      "service": "Comprehend"
+    },
+    "translateTextddc2e906": {
+      "convertType": "translateText",
+      "providerPlugin": "awscloudformation",
+      "service": "Translate"
+    }
   }
 }

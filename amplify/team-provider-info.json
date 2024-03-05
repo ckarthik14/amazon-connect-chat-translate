@@ -20,6 +20,10 @@
           "appId": "d1zpzmsw34nqh4",
           "type": "manual"
         }
+      },
+      "predictions": {
+        "translateTextddc2e906": {},
+        "interpretText0a0969b4": {}
       }
     }
   }
