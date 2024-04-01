@@ -67,8 +67,9 @@ const Chatroom = (props) => {
          
          ******************************************************************************************************/
 
-        let translatedMessageAPI = await translateTextAPI(newMessage, 'en', destLang.lang, ['connectChatTranslate']); // Provide a custom terminology created outside of this deployment
-        let translatedMessage = translatedMessageAPI.TranslatedText
+        // let translatedMessageAPI = await translateTextAPI(newMessage, 'en', destLang.lang, ['connectChatTranslate']); // Provide a custom terminology created outside of this deployment
+        // let translatedMessage = translatedMessageAPI.TranslatedText
+        let translatedMessage = await translateText(newMessage, 'en', destLang.lang);
 
         console.log(` Original Message: ` + newMessage + `\n Translated Message: ` + translatedMessage);
         // create the new message to add to Chats.
