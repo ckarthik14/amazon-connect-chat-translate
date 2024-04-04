@@ -70,7 +70,7 @@ const Ccp = () => {
           }
         upsert(languageTranslate, {contactId: contactId, lang: textLang})
         setLanguageTranslate(languageTranslate);
-                
+
         // Translate the customer message into English.
         let translatedMessage = await translateText(content, textLang, 'en');
         console.log(`CDEBUG ===>  Original Message: ` + content + `\n Translated Message: ` + translatedMessage);
